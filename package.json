@@ -6,8 +6,7 @@
   "scripts": {
     "build": "babel -d ./build src",
     "local": "nodemon src/index.js",
-    "start": "NODE_ENV=development node build/index.js",
-    "server": "NODE_ENV=production node build/index.js"
+    "start": "node index.js"
   },
   "author": "Test User ADG",
   "license": "",
