@@ -25,6 +25,9 @@ module.exports = (sequelize, DataTypes) => {
     image_url: {
       type: DataTypes.STRING(100),
     },
+    job_title: {
+      type: DataTypes.STRING(100),
+    },
     organization_ids: {
       type: DataTypes.ARRAY(DataTypes.UUID),
       defaultValue: [],
